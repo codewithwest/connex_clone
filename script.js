@@ -14,7 +14,7 @@ for (let logo = 0; logo < 3; logo++) {
     divCreator('above-nav', 'div', `logo-divs${logo}`, 'logo-divs')
 }
 divCreator(`logo-divs0`, 'div', `logo`, 'logo')
-document.getElementById(`logo-divs0`).style.backgroundImage = `url(assets/logo.jpg)`;
+document.getElementById(`logo`).style.backgroundImage = `url(assets/logo.jpg)`;
 
 //Form
 
